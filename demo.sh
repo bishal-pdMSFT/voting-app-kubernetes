@@ -17,7 +17,7 @@
 #doitlive env: CLU5TER_NAME=jason-kubernetes-greece
 
 ## -------
-## create service principal
+## create service principal 
 SUBSCRIPTION_ID="04f7ec88-8e28-41ed-8537-5e17766001f5"
 SERVICE_PRINCIPAL_NAME="japoon-kube-demo"
 SERVICE_PRINCIPAL_PASSWORD=`date | md5 | head -c8; echo`
