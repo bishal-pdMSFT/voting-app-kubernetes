@@ -6,9 +6,10 @@ Inspired by [example-voting-app](https://github.com/docker/example-voting-app)
 
 * vote: Python web app which allows you to vote between two options. The vote is saved onto an Azure Storage queue
 * worker: .NET core worker consumes votes from the Azure Storage queue and stores them in an Azure Storage Table
-* result: node.js web app which reads the Azure Storage Table and displays the results of the voting in real-time
+* result: node.js web app which reads the Azure Storage Table and displays the results of the voting in real-time.
 
 ## Deployment
+
 
 ### Create Azure Secret
 
